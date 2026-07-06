@@ -28,7 +28,8 @@ Project 2 of [Hands-On Programming with R](https://rstudio-education.github.io/h
    for each game.
 
 # How to run:
-Run the code in R or RStudio:
+1. Run the code in R or RStudio.
+2. Commands:
 
        shuffle_war()     # resets to a shuffled deck of 52 cards
        deal_war()        # deal the top card
