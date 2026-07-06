@@ -24,13 +24,13 @@ Project 2 of [Hands-On Programming with R](https://rstudio-education.github.io/h
    in memory.
 
 4. Creates deal_war(), shuffle_war(), deal_hearts(), shuffle_hearts(),
-   deal_blackjack(), and shuffle_blackjack() -- ready-to-use functions
+   deal_blackjack(), and shuffle_blackjack() functions
    for each game.
 
 # How to run:
 Run the code in R or RStudio:
 
-       shuffle_war()     # shuffle the War deck
+       shuffle_war()     # shuffle the War deck and resets to 52 cards
        deal_war()        # deal the top card
        deal_war()        # deal the next card
 
@@ -42,4 +42,3 @@ Run the code in R or RStudio:
 
 Each game's deck is independent -- shuffling or dealing from War has
 no effect on the Hearts or Blackjack decks.
-
