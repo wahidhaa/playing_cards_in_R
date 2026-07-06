@@ -2,8 +2,7 @@
 
 A virtual deck of 52 playing cards and sets it
 up for three different card games (War, Hearts, Blackjack), based on
-Project 2 of "Hands-On Programming with R" by Garrett Grolemund:
-https://rstudio-education.github.io/hopr/project-2-playing-cards.html
+Project 2 of [Hands-On Programming with R](https://rstudio-education.github.io/hopr/project-2-playing-cards.html) by Garrett Grolemund.
 
 # What it does:
 1. Builds a base deck as a data frame with 52 rows (one per card) and
