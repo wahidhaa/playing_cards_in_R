@@ -4,7 +4,7 @@ A virtual deck of 52 playing cards and sets it
 up for three different card games (War, Hearts, Blackjack), based on
 Project 2 of [Hands-On Programming with R](https://rstudio-education.github.io/hopr/project-2-playing-cards.html) by Garrett Grolemund.
 
-# What it does:
+## What it does:
 1. Builds a base deck as a data frame with 52 rows (one per card) and
    3 columns: face (A, 2-10, J, Q, K), suit (spades, clubs, hearts,
    diamonds), and value (1-13).
@@ -27,9 +27,10 @@ Project 2 of [Hands-On Programming with R](https://rstudio-education.github.io/h
    deal_blackjack(), and shuffle_blackjack() functions
    for each game.
 
-# How to run:
-1. Run the code in R or RStudio.
-2. Commands:
+## How to run:
+1. Source 'playing_cards_script' in R or RStudio.
+2. Run the script.
+3. Commands:
 
        shuffle_war()     # resets to a shuffled deck of 52 cards
        deal_war()        # deal the top card
@@ -41,5 +42,5 @@ Project 2 of [Hands-On Programming with R](https://rstudio-education.github.io/h
        shuffle_blackjack()
        deal_blackjack()
 
-Each game's deck is independent -- shuffling or dealing from War has
+Note: Each game's deck is independent -- shuffling or dealing from War has
 no effect on the Hearts or Blackjack decks.
