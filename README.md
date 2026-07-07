@@ -11,7 +11,7 @@ Project 2 of [Hands-On Programming with R](https://rstudio-education.github.io/h
 
 2. Creates a customized copy of the deck for each game, since card
    values differ by game:
-     - War:       Aces are high, worth 14.
+     - War:       Aces are worth 14 points.
      - Hearts:    Every heart is worth 1 point, the queen of spades
                   is worth 13 points, everything else is worth 0.
      - Blackjack: Face cards (J, Q, K) are worth 10, Aces are set to
